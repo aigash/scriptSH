@@ -15,7 +15,7 @@ do
   read playerChoice
     if [ $playerChoice -lt 1 ] || [ $playerChoice -gt 3 ]
     then
-      echo "Non parce qu'en fait j'avais dit 1,2 ou 3 j'halulu quoi le culot du mec. J'te donne une consigne tu l'applique pas, qu'est-ce qu'il se passe en fait tu m'respecte pas c'est ça ? J'suis pas ta chienne OK ? Vous autres utilisateurs d'Ubuntu vous avez un melooon, incroyable. Tu vas redescendre très vite de deux étages gamin et tu vas me faire le plaisir de prendre cette fois-ci 1, 2 ou 3 cartes et que j't'y reprenne plus !"
+      echo "Non parce qu'en fait j'avais dit 1,2 ou 3 j'halulu quoi le culot du mec. J'te donne une consigne tu l'applique pas, qu'est-ce qu'il se passe en fait tu m'respecte pas c'est ça ? J'suis pas une IA facile OK ? Vous autres utilisateurs d'Ubuntu vous avez un melooon, incroyable. Tu vas redescendre très vite de deux étages gamin et tu vas me faire le plaisir de prendre cette fois-ci 1, 2 ou 3 cartes et que j't'y reprenne plus !"
       read playerChoice
       let "nbElements = nbElements - playerChoice"
       echo ""
@@ -40,6 +40,7 @@ do
   if [ $nbElements -eq 0 ]
   then
     echo "PARTIE TERMINÉE LOSER DONNE TON BADGE D'ARÈNE ET TRACE TA ROUTE"
+    read choice
     game_running=false
   fi
 done

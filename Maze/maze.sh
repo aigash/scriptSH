@@ -203,6 +203,6 @@ echo "             ╔═════════════╗"
 echo "             ║TU AS GAGNÉ !║"
 echo "             ╚═════════════╝"
 read choice
-game_running=falses
+game_running=false
 fi
 done
