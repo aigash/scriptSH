@@ -1,6 +1,8 @@
 2 jeux :
 
-- Un labyrhinte, le maze
+- Un labyrhinte, le maze :
+
+![maze](maze.jpg)
 
                                                  
 
